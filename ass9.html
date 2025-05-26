@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ASS-9</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+
+        .gridcontainer {
+            background-color: white;
+            display: grid;
+            grid-template-areas: "Header Header Header"
+                "Sidebar Content1 Content1"
+                "Sidebar Content2 Content3"
+                "Footer Footer Footer";
+            grid-template-columns: 1fr 1fr 2fr;
+            grid-template-rows: auto;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .gridcontainer > div {
+            background-color: green;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .h {
+            grid-area: Header;
+        }
+
+        .s {
+            grid-area: Sidebar;
+        }
+
+        .c1 {
+            grid-area: Content1;
+        }
+
+        .c2 {
+            grid-area: Content2;
+        }
+
+        .c3 {
+            grid-area: Content3;
+        }
+
+        .f {
+            grid-area: Footer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gridcontainer">
+        <div class="h">Header</div>
+        <div class="s">Sidebar</div>
+        <div class="c1">Content1</div>
+        <div class="c2">Content2</div>
+        <div class="c3">Content3</div>
+        <div class="f">Footer</div>
+    </div>
+</body>
+
+</html>

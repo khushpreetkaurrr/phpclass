@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Alignment Properties</title>
+    <style>
+        .main {
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            font-size: 50px;
+        }
+
+        .left {
+            left: 100px;
+            border: 10px solid blue;
+        }
+
+        .right {
+            right: 300px;
+            border: 10px solid crimson;
+        }
+
+        .bottom {
+            bottom: 50px;
+            border: 10px solid green;
+        }
+
+        .top {
+            top: 80px;
+            border: 10px solid yellow;
+        }
+
+        .main2 {
+            position: relative;
+            width: 200px;
+            height: 100px;
+            font-size: 50px;
+        }
+
+        .left2 {
+            left: -100px;
+            border: 10px solid blue;
+        }
+
+        .right2 {
+            right: -300px;
+            border: 10px solid crimson;
+        }
+
+        .bottom2 {
+            bottom: -50px;
+            border: 10px solid green;
+        }
+
+        .top2 {
+            top: -80px;
+            border: 10px solid yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Absolute Position</h1>
+    <div class="main">
+        <div class="left"> Left Property </div>
+        <div class="right"> Right Property</div>
+        <div class="bottom"> Bottom Property</div>
+        <div class="top"> Top Property</div>
+    </div>
+    <h1>Relative Position</h1>
+    <div class="main2">
+        <div class="left2"> Left Property </div>
+        <div class="right2"> Right Property</div>
+        <div class="bottom2"> Bottom Property</div>
+        <div class="top2"> Top Property</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+  
+            
+                .user {padding-top: 10px;
+            text-align: center;}
+     #user{ text-align: center;   
+            font-size: large;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: white;
+            padding: 20px 40px; }            
+    #phone{ font-size: large;
+            padding: 20px 40px ;
+            border-radius: 20px;
+            background-color: white;
+            border: 2px solid black;
+            margin-left: 39%;
+            margin-top: 50px;
+            text-align: center;}
+    #OTP{ position: relative;
+            left: 39%;                            
+            text-align: center;
+            margin-top: 50px; 
+            margin-bottom: 200px; 
+            font-size: large;          
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: white;
+            padding: 20px 40px;}   
+   .submit {text-align: center;
+            margin-bottom: 200px;
+            margin-top: 30px;
+            }  
+            </style> </head><body>
+            
+      <div class="main">
+        <div class="heading">
+            <h4><u>STUDENT ATTENDANCE MANAGEMENT PORTAL</u></h4>
+        </div>
+        <div class="institute">
+            <h1><marquee behavior="scroll" direction="left">D.A.V SR.SEC PUBLIC SCHOOL, NARAINGARH</marquee></h1> </div>
+        <form action="portal.php" method="post">
+
+            <div class="login">
+            <select name="login_type" id="login_type">
+                <option value="Admin">Admin</option>
+                <option value="Staff">Staff</option>
+                <option value="Student">Student</option>
+            </select>
+        </div>
+        
+        <div id="nups">
+          <input type="text" name="name" placeholder="enter your name"> <br>
+          <input type="text" name="user" placeholder=" user_id"> <br>
+          <input type="password" name="password" placeholder="password"> <br>
+          <input type="submit" value="submit">
+        </div>
+
+        </form>
+        </div>  
+</body>
+</html>
